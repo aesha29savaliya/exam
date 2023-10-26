@@ -1,0 +1,35 @@
+.card-container {
+     display: flex;
+     flex-wrap: wrap;
+     gap: 20px;
+     justify-content: center;
+}
+
+.card {
+     border: 1px solid #ccc;
+     border-radius: 5px;
+     padding: 10px;
+     width: 300px;
+     box-shadow: 5px 5px 5px rgba(56, 51, 51, 0.1);
+     background-color: #fff;
+     transition: transform 0.2s ease-in-out;
+}
+
+.card:hover {
+     transform: scale(1.05);
+     box-shadow: -5px -5px 5px rgba(56, 51, 51, 0.1);
+     background-color: #4e4b4b;
+     color: #ffffff;
+}
+
+h5 {
+     font-weight: 200;
+}
+
+.view {
+     color: #ff0000;
+}
+
+.view:hover {
+     color: #ffffff;
+}    
